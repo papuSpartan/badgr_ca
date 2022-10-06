@@ -1,0 +1,19 @@
+{           
+	"auth_keys" : {
+		"sand" : {
+			"type" : "standard",
+			"key" : "0123456789ABCDEF0123456789ABCDEF"
+		}
+	},
+	"signing" : {
+		"default" : {
+			"auth_remote" : {
+				"auth_key": "sand",
+				"remote": "caserver"
+			}
+		}
+	},
+	"remotes" : {
+		"caserver":"127.0.0.1"
+	}
+}
