@@ -12,3 +12,12 @@ cert.pem - the actual full certificate returned by the API and parsed by **cfssl
 
 ## What's Up With The "old" Folder?
 that's where I'm housing invalid configuration files for both the client and server. They're from when I was trying to get one **that actually works**.
+
+## Dependencies
+
+Currently this should only require cfssl, bash/sh, and the 'less' utility
+
+this should install the deps on a standard Ubuntu install
+```
+sudo apt install golang-cfssl less bash
+```
